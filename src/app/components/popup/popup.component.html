@@ -1,0 +1,8 @@
+<div #popup class="popup">
+	<div class="popup-text">
+		{{this.defaulttext}}
+	</div>
+	<div [attr.class]="'popup-text-' + this.position">
+		{{this.popuptext}}
+	</div>
+</div>
